@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+
+  <title>Creador de horario</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  
+</head>
+<body>
+  <h1>Creador de horario</h1>
+  
+  <form id="formulario" onsubmit="return validateForm()">
+    <label for="materia1">Materia 1:</label>
+    <input type="text" id="materia1" name="materia1"><br>
+    <label for="profesor1">Profesor:</label>
+    <input type="text" id="profesor1" name="profesor1"><br>
+    <label for="carrera1">Carrera:</label>
+    <input type="text" id="carrera1" name="carrera1"><br>
+    <label for="semestre1">Semestre:</label>
+    <select id="semestre1" name="semestre1">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+    <input type="submit" value="Crear horario">
+</form>
+
+
+
+
+
+  <table>
+    <tr>
+      
+      <th> 
+      <a href="grupos aleatorios/grupos.html">Materia</a>
+    </th>
+      <th>
+        <a href="https://foroupiicsa.net/diccionario/">Profesor</a>
+      </th>
+      <th>Carrera</th>
+      <th>Semestre</th>
+      
+    </tr>
+    <tr>
+      
+      <td id="materia-lunes"></td>
+      <td id="profesor-lunes"></td>
+      <td id="carrera-lunes"></td>
+      <td id="semestre-lunes"></td>
+      
+    </tr>
+    <tr>
+      
+      <td id="materia-martes"></td>
+      <td id="profesor-martes"></td>
+      <td id="carrera-martes"></td>
+      <td id="semestre-martes"></td>
+      
+    </tr>
+    <tr>
+     
+      <td id="materia-miercoles"></td>
+      <td id="profesor-miercoles"></td>
+      <td id="carrera-miercoles"></td>
+      <td id="semestre-miercoles"></td>
+      
+    </tr>
+    <tr>
+      
+      <td id="materia-jueves"></td>
+      <td id="profesor-jueves"></td>
+      <td id="carrera-jueves"></td>
+      <td id="semestre-jueves"></td>
+      
+    </tr>
+    <tr>
+      
+      <td id="materia-viernes"></td>
+      <td id="profesor-viernes"></td>
+      <td id="carrera-viernes"></td>
+      <td id="semestre-viernes"></td>
+      
+    </tr>
+  </table>
+</body>
+</html>
+

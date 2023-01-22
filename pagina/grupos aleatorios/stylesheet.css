@@ -1,0 +1,52 @@
+/* Estilos para el título de cada sección */
+h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos para las tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+
+/* Estilos para las celdas de las tablas */
+th, td {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para los encabezados de las tablas */
+thead th {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+/* Estilos para el botón "Descarga Plantilla" */
+.download-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/* Agregar el botón "Descarga Plantilla" al lado derecho de cada tabla */
+table:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+table .download-button {
+  float: right;
+}
